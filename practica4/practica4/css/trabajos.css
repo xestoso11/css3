@@ -1,0 +1,182 @@
+/*afecta a todos los elementos de la pagina, quita el estilo de las listas, pixel de los margenes y del relleno 0, colores y decoraion del tecto fuera para poder daer stilo a los enlaces */
+*{
+  list-style:none;
+  list-style-type:none;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*titulos*/
+
+/*h1 justificado en el centro con flex y de color grys claro*/
+h1{
+  display: flex;
+  justify-content: center;
+  background-color:lightgrey;
+}
+
+/*h2 justificado en el centro con flex */
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+/*menu de navegación*/
+
+/*quitar el margen y el padding, y poner en columna*/
+nav{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+
+}
+
+
+/* todos los li definir fondo, color de letra , aumentar el pading y el padding derecho un poco mas, y pegar los li a la izquierda */
+
+li{
+  display:flex;
+  color: grey;
+  background-color:#FFF0C9;
+  justify-content:flex-start;
+  padding:10px;
+  padding-right:60px;
+
+}
+/*hacer que el pading de la clase navcon sea mas grande hacia abajo */
+
+.navcon{
+  padding-bottom:200px;
+
+}
+
+/*utensilios*/
+
+/* para la clase utensilios generar flex margen hacia abajo,en fila,  elementos alineados de tal foma que ocupen lo mismo, y justificados para que queden con la misma separacion y dos en los extremos */
+
+.utensilios{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom: 100px;
+  align-content: stretch;
+
+}
+
+/*para la clase tinta generar flex direcionar en columna y definir lo que ocupa de  de ancho*/
+
+.tinta{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+
+
+
+/*envios*/
+
+/*la clase envios generar flex elementos en fila, que si se minimiza la pagina o se agranda los elementos cambien de posicion poniendose unos debajo de otros,centrado, margen de abajo,*/
+.envios{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+  padding-bottom: 150px;
+  background-color: #FFF0C9;
+}
+/*para la clase nino generar flex ,en columna, ancho,alto, margen*/
+
+.nino{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+  margin:10px;
+}
+/*para la clase gemelos generar flex ,en columna, ancho,alto, margen*/
+
+.gemelos{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+  margin:10px;
+}
+/*para la clase abuelos generar flex ,en columna, ancho,alto, margen*/
+
+.abuelos{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+  margin:10px;
+}
+/*para la clase piper generar flex ,en columna, ancho,alto, margen*/
+
+.piper{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 350px;
+  margin:10px;
+}
+
+
+
+
+
+
+
+/*footer centrado con flex y en linea*/
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*contacto*/
+/*las imagenes con flex se ponen en linia y se le da el ancho*/
+
+.imgcon{
+  display:flex;
+  height:30px;
+  flex-direction:row;
+
+
+}
+
+
+/*la clase imgu con flex en linia y a la izquierda*/
+
+.imgu{
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-end;
+
+
+}
+
+/*creador de la Pagina*/
+/*la clase creador generar flex centrar y margen a la derecha y izquierda*/
+
+.creador{
+  display: flex;
+  justify-content: center;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+/*pagina en la que se esta*/
+/*la clase referencia generar flex y pegar a la derecha*/
+
+.referencia{
+  display: flex;
+  justify-content: flex-start;
+
+
+}

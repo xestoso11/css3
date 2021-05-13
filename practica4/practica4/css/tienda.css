@@ -1,0 +1,208 @@
+/*afecta a todos los elementos de la pagina, quita el estilo de las listas, pixel de los margenes y del relleno 0, colores y decoraion del tecto fuera para poder daer stilo a los enlaces */
+*{
+  list-style:none;
+  list-style-type:none;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*titulos*/
+
+
+/*h1 justificado en el centro con flex y de color grys claro*/
+
+h1{
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+/*h2 justificado en el centro con flex */
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+/*menu de navegación*/
+
+/*quitar el margen y el padding, y poner en columna*/
+nav{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+
+}
+
+
+/* todos los li definir fondo, color de letra , aumentar el pading y el padding derecho un poco mas, y pegar los li a la izquierda */
+
+li{
+  display:flex;
+  color: grey;
+  background-color:#FFF0C9;
+  justify-content:flex-start;
+  padding:10px;
+  padding-right:60px;
+
+}
+/*hacer que el pading de la clase navcon sea mas grande hacia abajo */
+
+.navcon{
+  padding-bottom:200px;
+
+}
+
+/*asi puede ser lo que recibas en tu casa*/
+
+/* para la clase envios generar flex,en fila,  elementos alineados de tal foma que ocupen lo mismo, y justificados para que queden con la misma separacion y dos en los extremos */
+
+.envios{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+}
+/*para la clase lazoa generar flex direcionar en columna y definir lo que ocupa de  de ancho*/
+
+.lazoa{
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+/*para la clase lazor generar flex direcionar en columna y definir lo que ocupa de  de ancho*/
+
+.lazor{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+/*para la clase cordon generar flex direcionar en columna y definir lo que ocupa de  de ancho*/
+
+.cordon{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+
+
+
+
+
+/*elementos*/
+/*la clase elementos con los elementos alineados por la base, color de fondo, pading, alineados en fila y elementos separados entre ellos por igual*/
+
+.elementos{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: baseline;
+  margin-bottom: 100px;
+  padding: 10px;
+  background-color:black;
+}
+
+/*clase imgu definir altura*/
+.imgu{
+  height:400px
+}
+
+/*la clase eleu generar flex, items alineados en el centro,fondo,elementos en columna*/
+.eleu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#FFF0C9;
+
+}
+
+/*clase imgd definir altura*/
+
+.imgd{
+  height:400px
+}
+
+/*la clase eled generar flex, items alineados en el centro,fondo,elementos en columna*/
+
+.eled{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#FFF0C9;
+
+}
+/*clase imgt definir altura*/
+
+.imgt{
+  height:400px
+}
+/*la clase elet generar flex, items alineados en el centro,fondo,elementos en columna*/
+
+.elet{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#FFF0C9;
+
+}
+
+
+
+
+
+
+
+/*footer centrado con flex y en linea*/
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*contacto*/
+/*las imagenes con flex se ponen en linia y se le da el ancho*/
+
+.imgcon{
+  display:flex;
+  height:30px;
+  flex-direction:row;
+
+
+}
+
+
+/*la clase imgu con flex en linia y a la izquierda*/
+
+.imgu{
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-end;
+
+
+}
+
+/*creador de la Pagina*/
+/*la clase creador generar flex centrar y margen a la derecha y izquierda*/
+
+.creador{
+  display: flex;
+  justify-content: center;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+/*pagina en la que se esta*/
+/*la clase referencia generar flex y pegar a la derecha*/
+
+.referencia{
+  display: flex;
+  justify-content: flex-start;
+
+
+}
